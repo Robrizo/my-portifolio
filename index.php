@@ -19,9 +19,9 @@
                 <ul>
                     <li><a href="#homepage">home</a></li>
                     <li><a href="#about-link">about</a></li>
-                    <li><a href="projects.html">projects</a></li>
-                    <li><a href="skills.html">skills</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="projects.php">projects</a></li>
+                    <li><a href="skills.php">skills</a></li>
+                    <li><a href="contact.php">contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -46,11 +46,9 @@
         </div>
         <div class="about_heading clearfix">
             <h2 class="about_main_heading">about me</h2>
-            <p class="about_subtext">I'm a graphic designer, i craft visually compelling designs that combine creativity
-                with strategy to achieve results.
+            <p class="about_subtext">I'm a graphic designer, i craft visually compelling designs that combine creativity with strategy to achieve results.
                 From concept to execution,
-                I work closely with my clients to deliver designs that connect with audiences and exceed their
-                expectations.</p>
+                I work closely with my clients to deliver designs that connect with audiences and exceed their expectations.</p>
         </div>
     </section>
     <!-- end of about section -->
@@ -63,4 +61,5 @@
 
     <script src="main.js"></script>
 </body>
+
 </html>
