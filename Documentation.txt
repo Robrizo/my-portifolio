@@ -1,0 +1,47 @@
+=====================================================
+PORTFOLIO PROJECT DOCUMENTATION
+=====================================================
+
+The following are the steps on how to successfully run the PORTFOLIO website.
+
+Clone Github Repository (Windows).
+
+To clone your Github repo on Windows.
+
+1. Open Git Bash
+
+2. Go to the current directory where you want the cloned directory to be added.
+    To do this, input cd and add your folder location. You can add the folder location by dragging the folder to Git bash.
+    $ cd "C:\xampp\htdocs"
+
+3. Go to the page of "my-portifolio" repository (you can use the following link: https://github.com/Robrizo/my-portifolio)
+
+4. Click on “Code” and copy the URL.
+
+5. Use the git clone command along with the copied URL from earlier.
+    $ git clone https://github.com/Robrizo/my-portifolio.git
+    Press Enter
+
+Setting up the project database.
+
+1. Run XAMMP and start "Apacher" and "MySQL" services.
+
+2. Open your browser, in the address bar type "http://localhost/phpmyadmin/" and then press "enter" to run "phpmyadmin".
+
+3. In "phpmyadmin" create a new database called "myportfolio_project ".
+
+4. Select newly create database
+
+5. Click on "Import" tab and import the "myportfolio_project.sql" from the cloned "my-portifolio" folder. You can do that by navigating to "C:\xampp\htdocs\my-portifolio" directory.
+
+6.  Once "myportfolio_project.sql" file is loaded, scroll down until you find the "import" button, click on it.
+
+7. At this point the database for Portfolio project must be ready.
+
+Running the portfolio website
+
+1. In your browser, open a new tab.
+
+2. In address bar type "localhost/my-portifolio" and press "enter" to run the  "index.php" file.
+
+CONGRATULATIONS FOR RUNNING THE PORTFOLIO WEBSITE SUCCESSFULLY!!!

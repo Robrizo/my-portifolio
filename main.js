@@ -20,12 +20,8 @@ pageGreeting();
 
 // start of background slideshow JS.
 var i = 0;
-var images = [];
+var images = ['./images/main_img.jpg','./images/bg-image-one.jpg','./images/bg-image-two.jpg' ];
 var slideTime = 3000; 
-
-images[0] = './images/main_img.jpg';
-images[1] = './images/bg-image-one.jpg';
-images[2] = './images/bg-image-two.jpg';
 
 function changePicture() {
     document.getElementsByClassName("main_page")[0].style.background = 'linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url("' + images[i] + '")center/cover no-repeat fixed';
