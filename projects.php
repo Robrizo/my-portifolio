@@ -75,7 +75,7 @@
 
             //retrive project details and display data
             while ($project = mysqli_fetch_assoc($rs)) {
-                $projectImg = $project['project_image_links'];
+                $projectImg = $project['project_image'];
                 $title = $project['title'];
                 $details = $project['details'];
 
